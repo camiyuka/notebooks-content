@@ -88,3 +88,21 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  @media screen and (max-width: 1300px) {
+    .item {
+      height:32em;
+      margin:0;
+      flex-shrink: 0;
+    }
+
+    .conteudo{
+        text-align: center;
+        margin-top:2em;
+        margin-bottom: 0%;
+
+    }
+    
+
+  }
+  

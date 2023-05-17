@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const isLeft = control.classList.contains('arrow-left');
   
         if (isLeft) {
-          currentItem -= 3;
+          currentItem -= 2;
         } else {
-          currentItem += 3;
+          currentItem += 2;
         }
   
         if (currentItem >= maxItem) {
