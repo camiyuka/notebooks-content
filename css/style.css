@@ -37,15 +37,11 @@
 .arrow-right{
     position:absolute;  
     top:0;
-    left:0;
+    left: 1em;
     right:auto;
     bottom:0;
-    font-size: 20px;
-    line-height: auto;
     width: 2em;
     text-align: center;
-    color: #fff;
-    background: linear-gradient(to left, transparent 0%, rgb(154, 96, 185) 200%);
     opacity:0.1;
     transition: all 600ms ease-in-out;
     border:none;
@@ -53,8 +49,8 @@
 
 .arrow-right{
     left:auto;
-    right:0;
-    background: linear-gradient(to right, transparent 0%, rgb(154, 96, 185) 200%);
+    right:1em;
+   
 }
 
 .arrow-left:hover{
@@ -132,4 +128,8 @@
 
   .item.clicked:hover {
     transform: none;
+  }
+
+  .turn-page{
+
   }

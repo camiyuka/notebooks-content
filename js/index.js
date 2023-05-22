@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     item.style.opacity = '1'; // Ajusta a opacidade para um valor desejado
     item.scrollIntoView='smooth';
   
+  
       
     setTimeout(function() {
       window.location.href = anchor.href;
