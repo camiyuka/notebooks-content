@@ -88,6 +88,7 @@
   @media screen and (max-width: 2000px) {
     .item {
       height:30em;
+      width:29vw;
       margin:0;
       flex-shrink: 0;
     }
