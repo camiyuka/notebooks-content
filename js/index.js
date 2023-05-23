@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       items.forEach(item => item.classList.remove('current-item'));
       items[currentItem].scrollIntoView({
         inline: "center",
-        behavior: 'smooth',
+        behavior:'smooth',
         block: "nearest",
       });
 
@@ -40,12 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
     item.classList.add('center');
     item.style.opacity = '1'; // Ajusta a opacidade para um valor desejado
     item.scrollIntoView='smooth';
-  
-  
       
     setTimeout(function() {
       window.location.href = anchor.href;
-    }, 1000); // Tempo em milissegundos antes do redirecionamento (aqui definido como 1 segundo)
+    }, 1000); 
     event.preventDefault();
   }
 
@@ -53,5 +51,14 @@ document.addEventListener('DOMContentLoaded', function() {
     item.addEventListener('click', bookCenter);
 
   });
+
+  item.forEach(item => {
+    item.classList.add('turnPage');
+  })
+  // colocar a página virando aqui 
+
+  
+
+
 
 });
