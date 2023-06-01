@@ -4,7 +4,7 @@
   padding:0;
   box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
-  background-color: #e2e2e2;
+  background-color: #f8f8f8;
   scroll-behavior: smooth;
   scroll-margin: 5em;
 
@@ -19,8 +19,8 @@
 
 #img-robo{
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 15px;
   width: 30em;
 }
 
@@ -41,7 +41,6 @@ h1{
   animation:
     typing 2s steps(41),
     cursor .5s step-end infinite alternate;
-
 }
 
 @keyframes cursor{
@@ -63,18 +62,19 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   text-align: center; 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #c17ecd;
+  background-color:#dfb8dd;
 
 }
 
 .portas:hover{
   font-weight: bold;
   transition-duration:100ms;
+  
 }
 
 .portas{
@@ -113,7 +113,7 @@ nav{
 a {
   color: blue;
   text-decoration: none;
-  background-color: #c17ecd;
+  background-color: #dfb8dd;
 }
 a:link{
   color:black;
@@ -121,3 +121,12 @@ a:link{
 a:visited{
   color:black;
 }
+
+/* conteúdo das portas*/
+
+.conteudo-portas-logicas{
+  width:100vw;
+  height: 100vh;
+}
+
+
