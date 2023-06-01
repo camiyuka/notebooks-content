@@ -112,7 +112,6 @@ nav{
   transition-duration:100ms;
 }
 
-
 a {
   color: blue;
   text-decoration: none;
@@ -156,15 +155,17 @@ a:visited{
 
 }
 
-.conteudo-portas-logicas{
+.conteudo-row{
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  height: 80vh;
+  gap:1em;
+  height: 90vh;
+  width: 95vw;
+
   
 }
-.textos-portas{
+.textos-conteudos{
   margin:2em;
   text-align: center;
 }
@@ -174,4 +175,8 @@ a:visited{
   display: flex;
   flex-direction: column;
 
+}
+
+.texto-semaforo{
+  width:20vw;
 }
