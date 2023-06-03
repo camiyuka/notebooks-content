@@ -159,15 +159,16 @@ a:visited{
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  gap:1em;
-  height: 90vh;
-  width: 95vw;
+  height: 95vh;
+  align-items: center;
+  margin:1em;
 
-  
 }
+
 .textos-conteudos{
-  margin:2em;
   text-align: center;
+  justify-content: space-around;
+  gap:2em;
 }
 .imagem-portas{
   width:15vw;
@@ -179,4 +180,12 @@ a:visited{
 
 .texto-semaforo{
   width:20vw;
+}
+
+video{
+  border-radius: 12px;
+}
+
+img{
+  border-radius: 12px;
 }
