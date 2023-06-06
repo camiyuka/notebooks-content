@@ -65,7 +65,7 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #B77DE1;
+  background-color: #d2abed;
   align-items: center;
   
 
@@ -114,7 +114,7 @@ nav{
 a {
   color: blue;
   text-decoration: none;
-  background-color:#B77DE1;
+  background-color: #d2abed;
 }
 a:link{
   color:black;
@@ -125,7 +125,7 @@ a:visited{
 
 
 #home{
-  background-color: #B77DE1 ;
+  background-color:#d2abed;
   transition-duration: 200ms;
 }
 
@@ -164,10 +164,8 @@ video{
 }
 
 #img-linguagem{
-    width:40vw;
-    bottom:0;
+    width:35vw;
     margin-left: 2em;
-    margin-top: 1.5em;  
 }
 
 section{
@@ -176,5 +174,5 @@ section{
 }
 
 #home{
-  background-color: #B77DE1;
+  background-color: #d2abed;
 }
