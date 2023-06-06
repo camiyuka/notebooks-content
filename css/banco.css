@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Mono:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+  scroll-margin: 5em;
+
+
+}
+
+.container{
+    display: inline-block;
+    margin-left: 25vw;
+}
+
+#img-robo{
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  width: 30em;
+}
+
+h1{
+  text-align: center;
+  margin-top:40vh;
+  
+}
+
+.text{
+  font-size:2.5em;
+  letter-spacing: 0.5px;
+  font-family: monospace;
+  border-right: 2.5px solid;
+  width: 100%;  
+  white-space: nowrap;
+  overflow:hidden;
+  animation:
+    typing 2s steps(41),
+    cursor .5s step-end infinite alternate;
+}
+
+@keyframes cursor{
+  50% { border-color: transparent}
+}
+
+@keyframes typing{
+  from { width:0}
+}
+
+.titulo-h2{
+  justify-content: space-around;
+  text-align: center;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #87A6DA;
+  align-items: center;
+  
+
+}
+
+.comandos:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+  
+}
+
+.comandos{
+  transition-duration:100ms;
+
+}
+
+.modelagem:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+
+}
+
+.modelagem{
+  transition-duration:100ms;
+}
+
+.criacao{  
+  transition-duration:100ms;
+}
+
+.criacao:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+}
+
+.agencia{
+    transition-duration:100ms;
+  }
+
+.agencia:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+  background-color: #87A6DA;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+
+
+.icone-inicio img{
+  background-color: #87A6DA ;
+  transition-duration: 200ms;
+}
+
+.icone-inicio{
+  transition-duration: 200ms;
+}
+
+.icone-inicio:hover{
+  transform: scale(1.04);
+  transition-duration: 200ms;
+}
+
+.conteudo-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:1em;
+    gap:2em;
+  
+  }
+
+.textos-conteudos{
+  text-align: center;
+  justify-content: space-around;
+  gap:2em;
+  height: 80vh;
+}
+
+
+video{
+  border-radius: 12px;
+}
+
+img{
+  border-radius: 12px;
+}
+
+#img-banco{
+    width:30vw;
+    bottom:0;
+    margin-left: 2em;
+}
