@@ -160,12 +160,9 @@ video{
   border-radius: 12px;
 }
 
-img{
-  border-radius: 12px;
-}
-
 #img-banco{
     width:30vw;
     bottom:0;
     margin-left: 2em;
+    margin-top: 1.5em;  
 }

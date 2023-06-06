@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Mono:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+  scroll-margin: 5em;
+
+
+}
+
+.container{
+    display: inline-block;
+    margin-left: 25vw;
+}
+
+#img-robo{
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  width: 30em;
+}
+
+h1{
+  text-align: center;
+  margin-top:40vh;
+  
+}
+
+.text{
+  font-size:2.5em;
+  letter-spacing: 0.5px;
+  font-family: monospace;
+  border-right: 2.5px solid;
+  width: 100%;  
+  white-space: nowrap;
+  overflow:hidden;
+  animation:
+    typing 2s steps(40),
+    cursor .5s step-end infinite alternate;
+}
+
+@keyframes cursor{
+  50% { border-color: transparent}
+}
+
+@keyframes typing{
+  from { width:0}
+}
+
+.titulo-h2{
+  justify-content: space-around;
+  text-align: center;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:  #64ABC4;
+  align-items: center;
+  
+
+}
+
+.html:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+  
+}
+
+.html{
+  transition-duration:100ms;
+
+}
+
+.css:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+
+}
+
+.css{
+  transition-duration:100ms;
+}
+
+.js{  
+  transition-duration:100ms;
+}
+
+.js:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+}
+
+.java{
+    transition-duration:100ms;
+  }
+
+.java:hover{
+  font-weight: bold;
+  transition-duration:100ms;
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+  background-color: #64ABC4;    
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+
+
+#home{
+  background-color: #64ABC4;
+  transition-duration: 200ms;
+}
+
+#home{
+  transition-duration: 200ms;
+}
+
+#home:hover{
+  transform: scale(1.04);
+  transition-duration: 200ms;
+}
+
+.conteudo-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:1em;
+    gap:2em;
+    height: 85vh;
+  
+  }
+
+.textos-conteudos{
+  text-align: center;
+  justify-content: space-around;
+  gap:2em;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+video{
+  border-radius: 12px;
+}
+
+#img-ciencia{
+    width:30vw;
+    bottom:0;
+    margin-left: 2em; 
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
+#home{
+  background-color: #64ABC4;
+}
