@@ -44,8 +44,15 @@
     border:none;
     z-index:1;
     top:40%;
+
 }
 
+button{
+    border-radius: 15px;
+}
+img{
+    border-radius: 15px;    
+}
 .arrow-right{
     left:auto;
     right:0%;
