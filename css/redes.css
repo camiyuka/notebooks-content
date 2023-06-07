@@ -71,41 +71,41 @@ nav{
 
 }
 
-.html:hover{
+.topologia:hover{
   font-weight: bold;
   transition-duration:100ms;
   
 }
 
-.html{
+.topologia{
   transition-duration:100ms;
 
 }
 
-.css:hover{
+.protocolos:hover{
   font-weight: bold;
   transition-duration:100ms;
 
 }
 
-.css{
+.protocolos{
   transition-duration:100ms;
 }
 
-.js{  
+.comunicacao{  
   transition-duration:100ms;
 }
 
-.js:hover{
+.comunicacao:hover{
   font-weight: bold;
   transition-duration:100ms;
 }
 
-.java{
+.cisco{
     transition-duration:100ms;
   }
 
-.java:hover{
+.cisco:hover{
   font-weight: bold;
   transition-duration:100ms;
 }

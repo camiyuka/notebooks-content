@@ -61,10 +61,12 @@ img{
 
 .arrow-left:hover{
     opacity:1;
+    cursor: pointer;
 }
 
 .arrow-right:hover{
     opacity:1;
+    cursor: pointer;
 }
 
 .item{

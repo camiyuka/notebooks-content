@@ -71,41 +71,41 @@ nav{
 
 }
 
-.html:hover{
+.estatistica:hover{
   font-weight: bold;
   transition-duration:100ms;
   
 }
 
-.html{
+.estatistica{
   transition-duration:100ms;
 
 }
 
-.css:hover{
+.amostragem:hover{
   font-weight: bold;
   transition-duration:100ms;
 
 }
 
-.css{
+.amostragem{
   transition-duration:100ms;
 }
 
-.js{  
+.grafico{  
   transition-duration:100ms;
 }
 
-.js:hover{
+.grafico:hover{
   font-weight: bold;
   transition-duration:100ms;
 }
 
-.java{
+.calculo{
     transition-duration:100ms;
   }
 
-.java:hover{
+.calculo:hover{
   font-weight: bold;
   transition-duration:100ms;
 }
