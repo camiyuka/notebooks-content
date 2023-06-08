@@ -186,3 +186,11 @@ a:visited{
 video{
   border-radius: 12px;
 }
+
+.videos-micro {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:1em;
+}
