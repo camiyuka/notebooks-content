@@ -6,7 +6,7 @@
   font-family: 'Roboto Mono', monospace;
   background-color: #ffffff;
   scroll-behavior: smooth;
-  scroll-margin: 5em;
+  scroll-margin: 10px;
 
 
 }
@@ -53,6 +53,7 @@ h1{
 .titulo-h2{
   justify-content: space-around;
   text-align: center;
+  margin:2em;
 }
 
 nav{
@@ -141,11 +142,10 @@ a:visited{
 .conteudo-row{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     margin:1em;
     gap:2em;
     height: 85vh;
+    justify-content: space-around;
   
   }
 
@@ -154,7 +154,8 @@ a:visited{
   justify-content: space-around;
   gap:2em;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding:1em;
  
 }
 
@@ -176,3 +177,11 @@ section{
 #home{
   background-color: #d2abed;
 }
+
+.conteudo-column{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+

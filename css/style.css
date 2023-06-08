@@ -143,3 +143,9 @@ img{
     transform: rotate3d(180deg);
 
   }
+
+  .zoom{
+    width:250em;
+  }
+
+  

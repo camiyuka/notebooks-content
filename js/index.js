@@ -53,12 +53,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   item.forEach(item => {
-    item.classList.add('turnPage');
+    item.addEventListener('click', zoomIn);
   })
-  // colocar a página virando aqui 
-
-  
-
-
-
 });
