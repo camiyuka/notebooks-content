@@ -49,31 +49,36 @@
 <!-- PRIMEIRO TITULO -->
   <main>
     <div class="titulo-h2">
-     <div id="topologia"><h3> Tipos de redes e topologia </h3></div>
+     <div id="topologia"><h2> Tipos de redes e topologia </h2></div>
     </div>
-    <section> 
       <div class="textos-conteudos">
         <b> Tipos de Rede </b>
       </div>
-        <div class="conteudos-row">
-          <b>PAN</b> Personal Area Network
-          <img src="../assets/pan.png" alt="imagem Personal Area Network" width="500px">
+        <div class="conteudo-column">
+          <h3>PAN</h3> Personal Area Network
+          É uma rede de área pessoal que conecta dispositivos eletrônicos próximos a uma pessoa, geralmente em um alcance de até alguns metros. Exemplos de tecnologias de PAN incluem Bluetooth e infravermelho, que permitem a comunicação entre dispositivos como smartphones, tablets, fones de ouvido sem fio, teclados, etc.
+
         </div>
 
-        <div class="conteudos-row">
-          <b>CAN</b> Controller Area Network
+        <div class="conteudo-column">
+          <h3>CAN </h3> Controller Area Network
+          É uma rede de área de controle utilizada principalmente na indústria automotiva. O CAN é projetado para permitir a comunicação entre os diferentes dispositivos eletrônicos presentes em um veículo, como sensores, atuadores, unidades de controle do motor, painéis de instrumentos, etc. Ele permite uma troca rápida e confiável de dados, garantindo o funcionamento adequado do veículo.
+
         </div>
        
-        <div class="conteudos-row">
-          <b>LAN</b> Local Area Network (infinitas)
+        <div class="conteudo-column">
+          <h3>LAN</h3> Local Area Network (infinitas)
+          É uma rede de área local que abrange uma área geograficamente limitada, como uma residência, escritório, escola ou campus. As LANs são usadas para conectar dispositivos próximos entre si, como computadores, impressoras, servidores e outros dispositivos de rede. Elas geralmente são construídas com tecnologias Ethernet ou Wi-Fi e oferecem altas velocidades de transmissão de dados dentro de sua área de cobertura.
         </div>
         
-        <div class="conteudos-row">
-          <b>MAN</b> Metropolitan Area Network (como TIM, VIVO, etc. Há inúmeras)
+        <div class="conteudo-column">
+          <H3>MAN</H3> Metropolitan Area Network (como TIM, VIVO, etc. Há inúmeras)
+          É uma rede de área metropolitana que abrange uma área geográfica maior do que uma LAN, como uma cidade ou uma região metropolitana. As MANs são normalmente operadas por provedores de serviços de telecomunicações, como TIM, VIVO, entre outros, e conectam várias LANs e outros dispositivos em uma área geográfica específica. Elas fornecem velocidades de transmissão de dados mais altas do que as LANs, mas geralmente são mais limitadas em termos de alcance geográfico.
         </div>
       
-        <div class="conteudos-row">
-        <b>WAN</b> Wide Area Network (interconexões de MAN, apenas uma)
+        <div class="conteudo-column">
+        <H3>WAN</H3> Wide Area Network (interconexões de MAN, apenas uma)
+        É uma rede de área ampla que cobre uma grande área geográfica, como um país, continente ou até mesmo globalmente. As WANs são utilizadas para interconectar várias redes menores, como LANs e MANs, através de tecnologias de telecomunicação, como linhas telefônicas, cabos de fibra óptica ou conexões sem fio. A Internet é um exemplo de uma WAN global que permite a comunicação e o compartilhamento de informações em todo o mundo.
       </div>
 
 
@@ -81,15 +86,9 @@
     
 
 
-    </section>
-
-
-        <div class="conteudo-row">
-          
-        </div>  
-
+<section>
     <div class="titulo-h2">
-      <div id="protocolos"><h3> Protocolos</h3></div>
+      <div id="protocolos"><h2> Protocolos</h2></div>
     </div>
 
     <section>
@@ -152,17 +151,94 @@
           </div>
         </div>
       </section>  
-       
-     <div class="titulo-h2">
-      <div id="comunicacao"><h3>Comunicação </h3></div>
-      <div class="conteudo-row">
-        
+
+    <section>
+    <div class="textos-conteudos">
+      <b> Modelo TCP/IP</b>
+      O modelo TCP/IP (Transmission Control Protocol/Internet Protocol) é um conjunto de protocolos de rede amplamente utilizado para a comunicação e troca de dados em redes de computadores. Ele é dividido em quatro camadas principais: aplicação, transporte, internet e acesso à rede.
       </div>
+
+
+        <div class="cards">
+
+          <div class="card">
+            <div class="titulo-card"> Aplicação</div>
+            <div class="texto-inicial"> Passe o mouse para saber mais</div>
+            <div class="texto-explicacao"> 
+ 
+              Lida com os protocolos e serviços que permitem que os aplicativos interajam com a rede. Ela inclui protocolos como HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol) e DNS (Domain Name System).
+             
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="titulo-card"> Transporte</div>
+            <div class="texto-inicial"> Passe o mouse para saber mais</div>
+            <div class="texto-explicacao"> Responsável pela entrega confiável dos dados entre hosts. O protocolo principal nesta camada é o TCP (Transmission Control Protocol), que segmenta os dados em pacotes, fornece detecção e correção de erros e garante que os pacotes sejam entregues na ordem correta.O UDP (User Datagram Protocol) também é usado nesta camada para fornecer um serviço de entrega não confiável, que é útil para aplicativos que não exigem uma garantia de entrega, como streaming de vídeo.</div>
+          </div>
+       
+       
+          <div class="card">
+            <div class="titulo-card"> Internet </div>
+            <div class="texto-inicial"> Passe o mouse para saber mais</div>
+            <div class="texto-explicacao">Responsável pela determinação de como os dados são enviados entre redes. O protocolo principal nesta camada é o IP (Internet Protocol), que define endereçamento e roteamento dos pacotes de dados. O IP divide os dados em pacotes e os encaminha para o destino correto usando endereços IP. O protocolo ICMP (Internet Control Message Protocol) também opera nesta camada, fornecendo mensagens de controle e diagnóstico.. </div>
+          </div>
+
+
+          <div class="card">
+            <div class="titulo-card"> Acesso à rede</div>
+            <div class="texto-inicial"> Passe o mouse para saber mais</div>
+            <div class="texto-explicacao">  é responsável pela transmissão física dos dados na rede. Ela abrange os protocolos e tecnologias utilizados para conectar um host a uma rede física, como Ethernet, Wi-Fi, DSL (Digital Subscriber Line) e outros. Essa camada também inclui a resolução de endereços MAC (Media Access Control) para identificar dispositivos na rede local.
+              <br> Segmenta e reagrupa os dados em pacotes e garante a entrega dos pacotes na ordem correta, sem perdas ou corrupção. </div>
+          </div>
+      
+      </section>  
+
+
+
+    <section>
+     <div class="titulo-h2">
+      <div id="comunicacao"><h2>Comunicação </h2></div>
      </div>
+
+      <div class="conteudo-row">
+        <h2> Firewall</h2>É uma medida de segurança que controla e monitora o tráfego de rede, protegendo uma rede privada contra acesso não autorizado e ameaças externas. Ele desempenha um papel vital na prevenção de ataques e na manutenção da integridade e confidencialidade dos dados em uma rede.
+      </div>
+
+      <div class="conteudo-row">
+        <h2> MAC</h2>
+        Sigla para "Media Access Control", é responsável por controlar o acesso ao meio físico compartilhado e garantir uma comunicação eficiente entre os dispositivos de uma rede local, utilizando endereços MAC exclusivos para identificar cada dispositivo.
+      </div>
+
+      <div class="conteudo-column">
+        <h3> Unicast, Broadcast e Multicast</h3>
+        </div>
+
+        <div class="conteudo-row">
+        <div><b>Unicast</b><br>
+          Comunicação de um para um, a mensagem é endereçada especificamente para um único dispositivo na rede, identificado por seu endereço IP ou endereço MAC. A mensagem não é replicada ou compartilhada com outros dispositivos na rede.
+        </div>
+     
+        <div><b>Broadcast</b><br>
+          Comunicação de um para todos, o remetente envia a mensagem para um endereço de broadcast especial, como o endereço de IP 255.255.255.255, e todos os dispositivos conectados à rede recebem a mensagem.É útil para enviar informações de forma geral ou para alcançar todos os dispositivos em uma rede local.
+        
+        </div>
+
+        <div><b>Multicast</b><br>
+          Comunicação de um para muitos, o remetente envia a mensagem para um endereço de multicast específico, que representa um grupo de dispositivos interessados em receber a mensagem. A mensagem é replicada e enviada somente aos dispositivos que se inscreveram no grupo multicast.
+        
+        </div>
+
+
+      </div>
+      </div>
+
+    </section>
  
     
      <div class="titulo-h2">
-      <div id="cisco"><h3> Cisco Packet Tracer </h3></div>
+      <div id="cisco"><h2> Cisco Packet Tracer </h2></div>
       <div class="conteudo-row">
         
       </div>

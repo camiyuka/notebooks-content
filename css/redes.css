@@ -53,6 +53,7 @@ h1{
 .titulo-h2{
   justify-content: space-around;
   text-align: center;
+  margin:1em;
 }
 
 nav{
@@ -143,10 +144,18 @@ a:visited{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin:1em;
+    margin:2em;
     gap:2em;
-    height: 85vh;
+    text-align: center;
   
+  }
+
+  .conteudo-column{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em;
   }
 
 .textos-conteudos{
@@ -215,7 +224,7 @@ section{
 .card:hover {
   width: 12.5em;
   height: 21.7em;
-  transform: translateY(1.25em);
+  transform: translateY(1.15em);
   margin-bottom:2em;
 }
 
@@ -233,7 +242,14 @@ section{
   font-size: 0.7em;
 }
 
+
 .cards{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+#tcp{
+  display: flex;
+  flex-direction: column;
 }
