@@ -11,6 +11,10 @@
 
 }
 
+section{
+  height: 100vh;
+  width: 100vw;
+}
 .container{
     display: inline-block;
     height: 100vh;
@@ -159,7 +163,6 @@ a:visited{
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 95vh;
   align-items: center;
   margin:1em;
 

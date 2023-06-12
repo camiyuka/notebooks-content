@@ -6,12 +6,12 @@
   font-family: 'Roboto Mono', monospace;
   background-color: #ffffff;
   scroll-behavior: smooth;
-  scroll-margin: 10px;
+  scroll-margin: 5em;
 
 
 }
 
-.container{
+.container{ 
     display: inline-block;
     margin-left: 25vw;
 }

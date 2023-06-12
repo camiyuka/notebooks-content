@@ -124,7 +124,6 @@ a:visited{
   color:black;
 }
 
-
 #home{
   background-color: #D3BFCB;
   transition-duration: 200ms;
@@ -152,8 +151,6 @@ a:visited{
 
 .textos-conteudos{
   text-align: center;
-  justify-content: space-around;
-  gap:2em;
   display: flex;
   flex-direction: column;
  
@@ -211,6 +208,7 @@ section{
   padding-top: 1.5em;
   padding:1em;
   transition: .4s ease-in-out;
+  text-align: center;
   
 }
 
@@ -230,6 +228,12 @@ section{
   text-align:center;
   display:flex;
   flex-direction:column;
-  margin:1em;  
+  margin:0.5em;  
   background-color: #D3BFCB;
+  font-size: 0.7em;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
 }
