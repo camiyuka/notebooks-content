@@ -4,7 +4,6 @@
   padding:0;
   box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
-  background-color: #ffffff;
   scroll-behavior: smooth;
   scroll-margin: 5em;
 
@@ -67,8 +66,8 @@ nav{
   justify-content: space-around;
   background-color: #87A6DA;
   align-items: center;
+  z-index:1;
   
-
 }
 
 .comandos:hover{
@@ -185,4 +184,51 @@ h3{
 #ddl{
   width: 100vw;
   height:30vh;
+}
+
+.card {
+  color: #1b1b1b;
+  width: 20em;
+  height: 10em;
+  position: relative;
+  border-radius: 8px;
+  padding: 16px;
+  outline: 6px solid #edededcc;
+  background-blend-mode: multiply;
+  background: linear-gradient(to right, #828be6, #5a94c5);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+  z-index: 0;
+  margin: 1em;
+}
+
+.card-front {
+  position: absolute;
+  width: 100%;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  left:4em;
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.subtitle{
+  font-size: 0.8rem;
+  text-align: justify;
+}
+/*Hover*/
+
+.card:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.card:hover .card-back {
+  transform: translateX(0);
 }
