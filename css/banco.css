@@ -82,13 +82,13 @@ nav{
 
 }
 
-.modelagem:hover{
+.normalizacao:hover{
   font-weight: bold;
   transition-duration:100ms;
 
 }
 
-.modelagem{
+.normalizacao{
   transition-duration:100ms;
 }
 
@@ -123,7 +123,6 @@ a:visited{
   color:black;
 }
 
-
 .icone-inicio img{
   background-color: #87A6DA ;
   transition-duration: 200ms;
@@ -147,12 +146,19 @@ a:visited{
     gap:2em;
   
   }
+  
+  .conteudo-column{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em;
+  }
 
 .textos-conteudos{
   text-align: center;
   justify-content: space-around;
   gap:2em;
-  height: 80vh;
 }
 
 
@@ -165,4 +171,18 @@ video{
     bottom:0;
     margin-left: 2em;
     margin-top: 1.5em;  
+}
+
+section{
+  width: 100vw;
+  height:100vh;
+}
+
+h3{
+  margin:1em;
+}
+
+#ddl{
+  width: 100vw;
+  height:30vh;
 }

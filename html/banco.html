@@ -27,13 +27,13 @@
       <a href="#comandos"> Comandos </a>
       
     </div>
-    
-    <div class="modelagem">
-      <a  href="#modelagem"> Modelagem</a>
-    </div>
-    
+  
     <div class="criacao">
-      <a  href="#criacao"> Criação</a>
+      <a  href="#criacao"> Criação </a>
+    </div>
+
+    <div class="normalizacao">
+      <a  href="#normalizacao"> Normalização</a>
     </div>
 
     <div class="agencia">
@@ -44,48 +44,144 @@
 <!-- CONTEÚDO PRINCIPAL!!!-->
 <!-- PRIMEIRO TITULO -->
   <main>
+   
+
     <div class="titulo-h2">
-     <div id="comandos"><h3> Comandos no PostGreSQL</h3></div>
+     <div id="comandos"><h2> Comandos no PostGreSQL</h2></div>
     </div>
 
-    <div class="conteudo-row">
-        <div class="textos-conteudos">
-            Começamos os estudos de Banco de Dados, estudando os comandos DDL, DML, DQL, DTL e DCL. 
-            Criando um banco de dados do SENAI, com departamentos, disciplinas e alunos.
-        </div>  
+    <div class="conteudo-column">
+      <h3> SQL </h3>
+      <div class="conteudo-row">
+        O SQL (Structured Query Language) é a linguagem de pesquisa declarativa padrão para banco de dados relacional, que pode ser divididas em: DDL: Linguagem de definição de dados;
+        DML: Linguagem de manipulação de dados;
+        DCL: Linguagem de Controle de Dados;
+        TCL: Linguagem de controle de transação;
+        DQL: linguagem de consulta de dados.
+      </div>
 
-            <figure class="textos-conteudos">
-              <img src="../assets/comandos.png" width="300px">
-              <figcaption> figcaption</figcaption>
-            </figure>
+    <div class="conteudo-column">
+      Em banco de dados, as linguagens que mais aprendemos foram: DML, DQL e DCL
+      <h3> DDL </h3>
+      <b> Data Definition Language - Linguagem de Definição de Dados</b>
+    </div>
+   
+      <div class="conteudo-row" id="ddl">
+        <figure>
+          <img src="../assets/create.png" width="300px">
+          <figcaption> <b> Create Table </b> é usado para criar objetos no banco de dados, como tabelas, índices, visões, procedimentos armazenados e outros.  </figcaption>
+        </figure>
+
+        <figure>
+          <img src="../assets/alter.png" width="300px">
+          <figcaption><b>Alter Table</b> é usado para modificar a estrutura de objetos existentes no banco de dados, como adicionar ou remover colunas em uma tabela ou alterar o tipo de dados de uma coluna.</figcaption>
+        </figure>
+     
+        <figure>
+          <img src="../assets/drop.png" width="300px">
+          <figcaption><b> Drop Table</b>é usado para excluir objetos do banco de dados, como tabelas, índices, visões, procedimentos armazenados e outros.</figcaption>
+        </figure>
+
+      </div>
+
+      <div class="conteudo-column">
+        Em banco de dados, as linguagens que mais aprendemos foram: DML, DQL e DCL
+        <h3> DML </h3>
+        <b>Data Manipulation Language - Linguagem de Manipulação de Dados</b>
+      </div>
+     
+        <div class="conteudo-row" id="ddl">
+          <figure>
+            <img src="../assets/insert.png" width="300px">
+            <figcaption> <b> Insert </b> é usado para criar objetos no banco de dados, como tabelas, índices, visões, procedimentos armazenados e outros.  </figcaption>
+          </figure>
+  
+          <figure>
+            <img src="../assets/update.png" width="300px">
+            <figcaption><b>Update</b> é usado para modificar a estrutura de objetos existentes no banco de dados, como adicionar ou remover colunas em uma tabela ou alterar o tipo de dados de uma coluna.</figcaption>
+          </figure>
+       
+          <figure>
+            <img src="../assets/delete.png" width="300px">
+            <figcaption><b> Delete</b> é usado para excluir objetos do banco de dados, como tabelas, índices, visões, procedimentos armazenados e outros.</figcaption>
+          </figure>
+  
+        </div>
+
+    </div>
+    
+    
+      <div class="conteudo-column">
+        Em banco de dados, as linguagens que mais aprendemos foram: DML, DQL e DCL
+        <h3> DQL </h3>
+        <b>Data Query Language - Linguagem de Consulta de Dados</b>
+      </div>
+     
+        <div class="conteudo-row" id="ddl">
+          <figure>
+            <img src="../assets/select.png" width="300px">
+            <figcaption> <b> Select </b> é usado para recuperar dados de uma ou mais tabelas. É amplamente utilizado para consultas e permite especificar colunas específicas, condições de filtro, ordenação, junções e muito mais.</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="../assets/join.png" width="300px">
+            <figcaption><b>Join</b> é usado para combinar registros de duas ou mais tabelas com base em uma condição de junção, permitindo consultar informações relacionadas em diferentes tabelas.</figcaption>
+          </figure>
+       
+          <figure>
+            <img src="../assets/group by.png" width="300px">
+            <figcaption><b> Group by</b> 
+               é usado para agrupar registros com base em uma ou mais colunas e permitir a aplicação de funções agregadas, como SUM, COUNT, AVG, entre outras.</figcaption>
+          </figure>
+  
+        </div>
+
     </div>
     
     
 
+     <section>
+      <div class="conteudo-column">
+          <div id="criacao"><h2> Criação do primeiro banco de Dados </h2></div>
+            <div class="textos-conteudos">
+              Em uma das primeiras aulas de banco de dados, já começamos criando um banco de dados do SENAI, contendo departamentos, cursos, disciplinas e alunos.
+             </div>  
+           <video src="../assets/bd-senai-video (video-converter.com).mp4" width="800px" controls auto></video>
+          </div>
+     </section>
+ 
+
+  <section>
     <div class="titulo-h2">
-      <div id="modelagem"><h3>Modelagem de Banco de dados</h3></div>
+      <div id="normalizacao"><h2>Normalização de Banco de dados</h2></div>
     </div>
+    <section>
 
-     <div class="textos-conteudos">
+    </section>
 
-     </div>
+  
 
+     <section>
      <div class="titulo-h2">
-      <div id="criacao"><h3> Criação do primeiro banco de Dados </h3></div>
-      <div class="textos-conteudos">
+      <div id="agencia"><h2> Criação do bando de dados de uma Agência de Turismo</h2></div>
+      
         
+        <figure>
+          <figcaption> 
+            Diagrama do Banco da Agência de Turismo
+          </figcaption>
+          <img src="../assets/agencia-diagrama.png"  width="800px">
+         
+        </figure>
+        <figcaption> 
+          Banco de dados da Agência de Turismo
+        </figcaption>
+        <video src="../assets/agencia-de-turismo.mp4" width="800px" controls auto> </video>
+
       </div>
      </div>
 
-    
-     <div class="titulo-h2">
-      <div id="agencia"><h3> Criação do bando de dados de uma Agência de Turismo</h3></div>
-      <div class="textos-conteudos">
-        
-      </div>
-
-     </div>
-
+    </section>
   </main>
 
 

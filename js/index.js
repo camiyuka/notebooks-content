@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
     setTimeout(function() {
       window.location.href = anchor.href;
-    }, 1000); 
+    }, 900); 
     event.preventDefault();
   }
 
