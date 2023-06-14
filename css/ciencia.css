@@ -204,6 +204,9 @@ section{
 
 .h3-espaçado-direita{
   margin-right:2em;
+  background-color: #98c6d7;
+  padding:1.5em;
+  border-radius: 12px;
 }
 
 .teste-hipotese{
@@ -282,4 +285,36 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.tendencia:hover{
+  font-weight: bold;
+}
+
+.quartil:hover{
+  font-weight: bold;
+}
+
+.amplitude:hover{
+  font-weight: bold;
+}
+
+.variancia:hover{
+  font-weight: bold;
+}
+
+.desvio:hover{
+  font-weight: bold;
+}
+
+.teste:hover{
+  font-weight: bold;
+}
+
+.distribuicao:hover{
+  font-weight: bold;
+}
+
+.calculo:hover{
+  font-weight: bold;
 }
