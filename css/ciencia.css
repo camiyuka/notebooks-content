@@ -142,12 +142,20 @@ a:visited{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    margin:1em;
-    gap:2em;
-    height: 85vh;
+    align-items: justify;
+    margin:2em;
+    gap:3em;
   
   }
+
+  .conteudo-column{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em;
+  }
+
 
 .textos-conteudos{
   text-align: center;
@@ -157,7 +165,6 @@ a:visited{
   flex-direction: column;
  
 }
-
 
 video{
   border-radius: 12px;
@@ -171,9 +178,30 @@ video{
 
 section{
     height: 100vh;
-    width: 100vw;
+    width: 98vw;
 }
 
 #home{
   background-color: #64ABC4;
+}
+
+.conteudo-row-amostra{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:0;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  gap:2em;
+  height: 85vh;
+}
+
+.amostra{
+  border-radius: 12px;
+}
+
+.h3-espaçado-direita{
+  margin-right:2em;
 }

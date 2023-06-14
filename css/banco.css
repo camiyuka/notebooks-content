@@ -195,8 +195,8 @@ h3{
   padding: 16px;
   outline: 6px solid #edededcc;
   background-blend-mode: multiply;
-  background: linear-gradient(to right, #828be6, #5a94c5);
-  transition: background-color 1s ease-in-out;
+  background: linear-gradient(to top, #5a94c5,  #86bdea);
+  transition: background-color 2s ease-in-out;
   overflow: hidden;
   z-index: 0;
   margin: 1em;
@@ -206,12 +206,13 @@ h3{
   position: absolute;
   width: 100%;
   transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-  left:4em;
+  left:3em;
 }
 
 .card-back {
   transform: translateX(120%);
   transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  font-size: 0.9rem;
 }
 
 /*Text*/
@@ -221,7 +222,8 @@ h3{
 }
 .subtitle{
   font-size: 0.8rem;
-  text-align: justify;
+
+
 }
 /*Hover*/
 

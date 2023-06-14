@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/grafico-icon.png" class="favicon">
-    <title>Redes de computadores</title>
+    <title>Ciência de dados</title>
     <link rel="stylesheet" href="../css/ciencia.css"> 
 
 </head>
@@ -20,68 +20,197 @@
 
 <!-- LINKS DA NAVEGAÇÃO-->
   <nav>
-
-   
       <a href="../html/main.html"><img id="home" src="../assets/home.png" width="24px";></a>
 
-
-    <div class="estatistica">
-      <a href="#estatistica"> Estatística descritiva </a>
+      <div class="amostragem">
+        <a  href="#amostragem"> Amostragem</a>
+      </div>
       
-    </div>
-    
-    <div class="amostragem">
-      <a  href="#amostragem"> Amostragem</a>
-    </div>
-    
-    <div class="grafico">
-      <a  href="#grafico">Geração de gráficos</a>
-    </div>
+      <div class="grafico">
+        <a  href="#grafico">Geração de gráficos</a>
+      </div>
 
-    <div class="calculo">
-      <a  href="#calculo"> Cálculo I</a>
-    </div>
+      <div class="calculo">
+        <a  href="#calculo"> Cálculo I</a>
+      </div>
   </nav>
 
 <!-- CONTEÚDO PRINCIPAL!!!-->
 <!-- PRIMEIRO TITULO -->
   <main>
+
     <div class="titulo-h2">
-     <div id="estatistica"><h3> Estatíscia Descritiva</h3></div>
+     <div id="amostragem"><h3> Amostragem</h3></div>
     </div>
-
-        <div class="conteudo-row">
-          
-        </div>  
-        
-    <div class="titulo-h2">
-      <div id="amostragem"><h3>Amostragem</h3></div>
+    <div class="textos-conteudos">
+      Em ciência de dados, começamos criando um banco de dados da nossa sala, e a partir disso, analisamos os dados com os diferentes tipos de amostragens em Python. Veja os exemplos a seguir:
     </div>
-
-     <div class="conteudo-row">
-
-     </div>
-
-     <div class="titulo-h2">
-      <div id="grafico"><h3> Plotando gráficos </h3></div>
-      <div class="conteudo-row">
-        
-      </div>
-     </div>
-
     
-     <div class="titulo-h2">
-      <div id="calculo"><h3> Cálculo I </h3></div>
-      <div class="conteudo-row">
-        
+    <div class="conteudo-row-amostra">
+
+    <figure>
+      <img src="../assets/amostragem/importacao.png" width="540px">
+      <figcaption>Importando bibliotecas e lendo o excel com os dados</figcaption>
+    </figure>
+
+    <figure>
+      <img src="../assets/amostragem/amostra-aleatoria.png" width="600px">
+      <figcaption>Amostra aleatória de 5 alunos</figcaption>
+    </figure>
+
+  </div>
+
+  <div class="conteudo-row-amostra">
+    <figure>
+      <img class="amostra" src="../assets/amostragem/amostra-estratificada.png" width="550px">
+      <figcaption> Amostra estratificada das alunas (sexo feminino)</figcaption>
+    </figure>
+
+  <figure>
+    <img class="amostra" src="../assets/amostragem/estratificacao-sexo-masc.png" width="550px">
+    <figcaption>Amostra estratificada dos alunos (sexo masculino)</figcaption>
+  </figure>
+
+    </div>
+
+    <div class="conteudo-row-amostra">
+      <figure>
+        <img class="amostra" src="../assets/amostragem/amostra-sistematica.png" width="600px">
+        <figcaption>Array dos números 2 ao 38, pulando de 4 em 4, e depois pegando os alunos com os respectivos números </figcaption>
+      </figure>
+
+    <figure>
+      <img class="amostra" src="../assets/amostragem/estratificacao-aleatoria-um-squad.png" width="590px">
+      <figcaption>Estratificando um aluno de cada squad </figcaption>
+    </figure>
+</div>
+
+    <div class="titulo-h2">
+     <div id="grafico"><h3> Tendência Central </h3></div>
+    </div>
+
+    <div class="conteudo-row">
+     <h3 class="h3-espaçado-direita">Média</h3>
+      Média é uma medida que calcula o valor médio de um conjunto, em ciência de dados, a média é utilizada uma análise para obter uma medida de tendência central, ou seja, ela busca entender o valor fornecendo uma ideia de centralidade. Geralmente, é combinada com outras técnicas estatísticas, como a mediana e a moda, para uma compreensão mais completa dos dados. 
+
+    </div>
+
+    <div class="conteudo-row">
+      <h3 class="h3-espaçado-direita"> Mediana</h3>
+      A mediana é calculada pelo valor que está no meio do conjunto quando eles estão ordenados de maneira crescente ou decrescente, já a média não leva em conta o ordenamento dos elementos do conjunto
+    </div>
+
+    <div class="conteudo-row">
+      <h3 class="h3-espaçado-direita"> Moda</h3>
+        A moda é uma medida estatística que busca os valores com a maior frequência no conjundo de dados, ela não é uma medida de tendência central (porém estudamos a moda juntamente com esses conteúdos) ela apenas faz uma contagem do elemento modal. Ela pode ser: Unimodal, Bimodal, Multimodal e Amodal
+    </div>
+    
+    <div class="conteudo-row">
+      <h3 class="h3-espaçado-direita"> Percentil</h3>
+      Percentil refere-se a uma medida estatística que indica a posição relativa de um determinado valor em relação a um conjunto de valores. Em bancos de dados, o percentil é frequentemente usado para analisar a distribuição dos dados e identificar valores atípicos.
+    </div>
+    
+    <div class="conteudo-column">
+      <h3 class="h3-espaçado-direita"> Quartil</h3>
+      Os quartis são medidas estatísticas que dividem um conjunto de dados ordenados em quatro partes iguais. Eles são amplamente utilizados para entender a distribuição e a dispersão dos dados. Os três quartis mais comuns são: Primeiro Quartil, Segundo Quartil e Terceiro Quartil.
+    </div>
+
+    <div class="conteudo-row">
+      <div class="quartis">
+        <b>Primeiro Quartil (Q1)</b><br>
+        O primeiro quartil divide os dados em 25% (ou um quarto) inferior e 75% superior. Em termos de posição, o primeiro quartil corresponde à mediana dos dados inferiores.
+
       </div>
 
-     </div>
+      <div class="quartis">
+        <b>Segundo Quartil (Q2)</b><br>
+        O segundo quartil é exatamente igual à mediana dos dados. Também é conhecido como quartil médio ou quartil 50%. Divide os dados em 50% inferior e 50% superior.
+      </div>
+
+      <div class="quartis">
+        <b>Terceiro Quartil (Q3) </b><br>
+        Conhecido como quartil superior ou quartil 75%, o terceiro quartil divide os dados em 75% inferior e 25% superior. O terceiro quartil é equivalente à mediana dos dados superiores.
+      </div>
+    </div>
+
+
+  <div class="conteudo-column">
+    <h2>Amplitude</h2>
+    A amplitude refere-se à diferença entre o maior e o menor valor em um conjunto de dados. É uma medida simples que fornece uma ideia da extensão total dos valores observados.
+    Para calcular a amplitude, basta subtrair o menor valor do maior valor encontrado no conjunto de dados.
+
+    <div class="img-amplitude"> 
+      <b>Exercício usando .max e .min</b>
+      <img src="" alt="">
+    </div>
+
+    <div class="img-amplitude"> 
+      <b>Descobrindo a amplitude de prédios</b>
+      <img src="" alt="">
+    </div>
+
+    <div class="img-amplitude"> 
+      <b>Aplicando amplitude no Dataframe do Titanic</b>
+      <img src="" alt="">
+    </div>
+   </div>
+
+   <div class="textos-conteudos">
+    <h2> Variância</h2>
+   </div>
+
+   <div class="conteudo-row">
+      
+    <div class="texto-variancia">
+      <b> Exercício de variância com prédios</b>
+      aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    </div>
+
+    <div class="texto-variancia">
+      <b> Variância no Dataframe do Titanic</b>
+      aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    </div>
+
+    </div>
+
+    <div class="conteudo-column">
+      <h3 class="h3-espaçado-direita"> Desvio Padrão </h3>
+      O desvio padrão é uma medida estatística que indica a dispersão ou variabilidade dos dados em relação à média. Ele fornece uma medida de quão distantes os valores individuais estão da média do conjunto de dados.
+    </div>
+
+    <div class="conteudo-row">
+      <div class="desvio-texto">
+        <b> Desvio padrão entre as alturas dos prédios</b><br>
+       <img src="" alt="">
+      </div>
+
+      <div class="desvio-texto">
+        <b>Aplicando Desvio Padrão no DataFrame Titanic</b><br>
+        <img src="" alt="">
+      </div>
+    </div>
+
+    <div class="conteudo-column">
+      <h2>Inferência</h2>
+      
+    </div>
+
+
+
+
+
+
+
+
+  
+  <section>
+    <div class="titulo-h2">
+      <div id="calculo"><h3> Cálculo I </h3></div>
+    </div>
+  </section>
 
   </main>
 
-
-    
     
 </body>
 </html>
