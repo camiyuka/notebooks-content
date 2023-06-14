@@ -205,3 +205,12 @@ section{
 .h3-espaçado-direita{
   margin-right:2em;
 }
+
+.teste-hipotese{
+  width: 40vw;
+  justify-content: space-around;
+}
+
+.conteudo-desvio-padrao{
+  text-align: center;
+}
