@@ -177,7 +177,7 @@ video{
 }
 
 section{
-    height: 100vh;
+    height: 95vh;
     width: 98vw;
 }
 
@@ -213,4 +213,73 @@ section{
 
 .conteudo-desvio-padrao{
   text-align: center;
+}
+
+.inferencia-img{
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  position: relative;
+  width: 16em;
+  height: 4.5em;
+  background: rgb(255, 255, 255);
+  background-color: #98c6d7;  
+  transition: .4s ease-in-out;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  overflow: hidden;
+  margin:1em;
+}
+
+.titulo-card{
+  position: relative;
+  color: black;
+  background-color: #98c6d7;
+  font-size: 1.1em;
+  padding-top: 1em;
+  text-align: center;
+  z-index:0;
+}
+
+.texto-inicial{
+  position: relative;
+  color: black;
+  background-color:  #98c6d7;
+  font-weight: 500;
+  font-size: 0.5em;
+  padding-top: 1.5em;
+  padding:1em;
+  transition: .4s ease-in-out;
+  text-align: center;
+  
+}
+
+.card:hover {
+  width: 17em;
+  height: 21.7em;
+  transform: translateY(1.15em);
+
+}
+
+.card:hover .texto-inicial{
+  opacity:0;
+}
+
+.texto-explicacao{
+  color: black;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  margin:0.5em;  
+  background-color: #98c6d7;
+  font-size: 0.8em;
+}
+
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
