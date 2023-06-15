@@ -233,3 +233,15 @@ h3{
 .card:hover .card-back {
   transform: translateX(0);
 }
+
+.diagrama:hover{
+  transform: scale(1.5);
+  transition-duration: 200ms;
+  
+}
+
+.diagrama{
+  transition-duration:200ms;
+  border: 1px solid black;
+  border-radius: 12px;
+}
