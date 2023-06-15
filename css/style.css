@@ -10,17 +10,16 @@
 
 .conteudo{
     text-align: center;
-    margin-top:4em;
+    margin-top:1em;
     margin-bottom: 0%;
 
 }
 
 .container{
-    padding:2em;
     max-width: 100vw;
     margin:0 auto;
-    margin-top:2em;
     z-index: 0;
+    margin-top:1em;
 }
 
 .gallery-wrapper{
@@ -131,3 +130,16 @@ img{
     margin:1em;
 
   }
+
+  h1{
+    margin:0;
+    top:0;
+  }
+
+  @media (max-width: 2000px) {
+    .item {
+      width: 24em;
+      height: 30em;
+    }
+  }
+  
