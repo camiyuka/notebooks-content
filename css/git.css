@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.content{
+    margin:30px;
+}
+
+.content .project{
+    border:1px solid #91b9cf;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    gap:30px;
+    border-radius: 12px;
+    margin:25px;
+}
+
+.content .project div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .project div .date-create{
+    color:#888888;
+    border: 1px solid rgb(121, 93, 93);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+
+}
+
+.content .project div .title{
+    color:rgb(138, 138, 138);
+
+}
+
+.content .project a{
+    text-decoration:none;
+    padding: 1em;
+    border-radius: 12px;
+    transform:translateY(1.1px);
+    transition: .1s ease-in-out;
+}
+
+.content .project a:hover{
+    transform:translateY(-1.1px);
+    transition: .1s ease-in-out;
+}

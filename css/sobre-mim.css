@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Mono:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+  scroll-margin: 5em;
+
+
+}
+
+.container{
+    display: inline-block;
+    margin-left: 25vw;
+}
+
+h1{
+  text-align: center;
+  margin-top:40vh;
+  
+}
+
+.text{
+  font-size:2.5em;
+  letter-spacing: 0.5px;
+  font-family: monospace;
+  border-right: 2.5px solid;
+  width: 100%;  
+  white-space: nowrap;
+  overflow:hidden;
+  animation:
+    typing 2s steps(40),
+    cursor .5s step-end infinite alternate;
+}
+
+@keyframes cursor{
+  50% { border-color: transparent}
+}
+
+@keyframes typing{
+  from { width:0}
+}
+
+.titulo-h2{
+  justify-content: space-around;
+  text-align: center;
+  margin:1em;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #91b9cf;
+  align-items: center;
+  z-index:1;
+  
+
+}
+
+.nav-link:hover{
+    font-weight: bold;
+  transition-duration:100ms;
+
+}
+
+a{
+    background-color: #91b9cf;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+
+.home{
+  transition-duration: 200ms;
+}
+
+#home{
+  transition-duration: 200ms;
+  background-color: #91b9cf;
+}
+
+#home:hover{
+  transform: scale(1.04);
+  transition-duration: 200ms;
+}
+
+.conteudo-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:2em;
+    gap:2em;
+    text-align: center;
+  
+  }
+
+  .conteudo-column{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em;
+  }
+
+.textos-conteudos{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+video{
+  border-radius: 12px;
+}
+
+section{
+    height: 100vh;
+    width: 98vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contato-img{
+    transform:translateY(1.1px);
+    transition: .1s ease-in-out;
+    background-color: #ffffff;
+    width:2.5vw;
+
+    }
+.contato-img:hover{
+       transform:translateY(-1.1px);
+      transition: .1s ease-in-out;
+      background-color: #ffffff;
+
+ }
+
+.row{
+justify-content: space-around;
+gap:6em;
+}
+
+.row a{
+    background-color: #ffffff;
+}
+
+.tec-img{
+    
+    transition: .2s ease-in-out;
+}
+
+.tec-img:hover{
+    transform: scale(1.10);
+    transition: .2s ease-in-out;
+
+}

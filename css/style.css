@@ -70,7 +70,7 @@ img{
 }
 
 .item{
-    width:32em;
+    width:36em;
     height: 45em;
     flex-shrink: 0;
     opacity:0.5;
@@ -94,7 +94,6 @@ img{
     scrollbar-width: none;  /* Firefox */
   }
 
- 
   .center {
     position: absolute;
     top: 50%;
