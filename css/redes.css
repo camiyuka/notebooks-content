@@ -253,3 +253,12 @@ section{
   display: flex;
   flex-direction: column;
 }
+
+video{
+  margin:1.5em;
+}
+
+.lista{
+  text-align: justify;
+  line-height: 27px;
+}

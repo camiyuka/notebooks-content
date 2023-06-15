@@ -141,7 +141,7 @@ a:visited{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin:1em;
+    margin:2em;
     gap:2em;
   
   }
@@ -221,8 +221,6 @@ h3{
 }
 .subtitle{
   font-size: 0.8rem;
-
-
 }
 /*Hover*/
 
@@ -235,7 +233,7 @@ h3{
 }
 
 .diagrama:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition-duration: 200ms;
   
 }
